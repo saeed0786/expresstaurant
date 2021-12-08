@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
+  
+"scripts": {
+  "test": "jest --coverage",
+  "test:report": "jest --coverage=true"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dunnoconnor/expresstaurant.git"
